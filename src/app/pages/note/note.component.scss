@@ -1,0 +1,9 @@
+.full-height {
+  height: calc(100vh - 40px);
+  
+}
+
+textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #719ECE;
+}

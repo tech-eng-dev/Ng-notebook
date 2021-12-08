@@ -1,0 +1,8 @@
+<form [formGroup]="noteForm">
+  <textarea npAutoFocus
+    placeholder="Type here..."
+    class="full-height w-100"
+    formControlName="content"
+    (input)="onNoteChange($event)">
+  </textarea>
+</form>
